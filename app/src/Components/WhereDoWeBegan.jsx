@@ -14,7 +14,7 @@ export default function WhereDoWeBegan() {
       <p>
         As pressões sobre as líderes por vezes as tornavam impotentes diante
         de tantos desafios que as cercavam na vida pessoal, familiar, profissional e ministerial.
-        Elas precisavam de ferramentas; mais do que isso, elas estavam sedentas por apoio,
+        Elas precisavam de ferramentas e, mais do que isso, elas estavam sedentas por apoio,
         pastoreio e cuidado.
       </p>
       <p>
@@ -28,12 +28,14 @@ export default function WhereDoWeBegan() {
         talentos, nosso tempo e as demandas que precisávamos dar conta.
       </p>
       <p>
-        Foi assim que surgiu a ACADEMIA DE MULHERES INSPIRE.
-        Como um espaço de crescimento mútuo e de muita construção em conjunto.
+        Foi assim que surgiu a
+        {' '}
+        <b>ACADEMIA DE MULHERES INSPIRE</b>
+        . Como um espaço de crescimento mútuo e de muita construção em conjunto.
       </p>
       <p>
-        Aos poucos, o desânimo, foi dando lugar a motivação; a indisciplina foi
-        anulada pela disciplina e pela boa administração do tempo; a inexperiência
+        Aos poucos, o desânimo, foi dando lugar a motivação, a indisciplina foi
+        anulada pela disciplina e pela boa administração do tempo, a inexperiência
         foi dando lugar a troca e a bons relacionamentos.
       </p>
     </section>

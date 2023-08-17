@@ -2,13 +2,16 @@ import React from 'react';
 
 export default function CoursePresentation() {
   return (
-    <section className="course-presentation">
+    <section
+      className="course-presentation"
+      id="course-presentation"
+    >
       <h3>O projeto de mentoria e discipulado</h3>
       <ol className="course-list">
         <li>Objetivo</li>
         <p>
           O programa propõe o discipulado e o acompanhamento da mulher líder
-          nos seguintes aspectos: espiritual, físico e emocional;
+          aspectos espiritual, físico e emocional
           por meio do fornecimento de ferramentas e recursos para o crescimento espiritual,
           desenvolvimento da inteligência emocional e consciência do cuidado com o corpo e saúde.
         </p>
@@ -22,7 +25,9 @@ export default function CoursePresentation() {
         <li>Formato</li>
         <p>
           Os encontros acontecerão quinzenalmente de forma online
-          AS TERCAS FEIRAS AS 20H (Google Meet), com duração de 1 hora e meia a 2 horas.
+          <b>AS TERCAS FEIRAS AS 20H</b>
+          {' '}
+          (Google Meet), com duração de 1 hora e meia a 2 horas.
         </p>
         <p>
           Os encontros ficarão
@@ -94,17 +99,17 @@ export default function CoursePresentation() {
         <ul>
           Ao final do período a líder será capaz de:
           <li>
-            Conhecer a si mesma;
-            curar feridas emocionais; entender os temperamentos e personalidades para gerenciar suas
+            Conhecer a si mesma,
+            curar feridas emocionais, entender os temperamentos e personalidades para gerenciar suas
             emoções e interromper valores nocivos e reforçar bons valores.
           </li>
           <li>
-            Confirmar seu propósito, missão e chamado;
-            aprender a desenvolver seus Dons, Fruto do Espírito e Linguagem do amor;
+            Confirmar seu propósito, missão e chamado,
+            aprender a desenvolver seus dons, Fruto do Espírito e Linguagem do amor e
             estar firme diante das batalhas espirituais.
           </li>
           <li>
-            Desenvolver a inteligência emocional para liderança;
+            Desenvolver a inteligência emocional para liderança,
             entender o comportamento da discipulanda para conseguir
             extrair o melhor que existe nela.
           </li>
