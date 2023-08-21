@@ -1,5 +1,6 @@
 import React from 'react';
 import * as Popover from '@radix-ui/react-popover';
+import PropTypes from 'prop-types';
 import '../../Styles/Popover.css';
 
 export default function PopoverDemo(props) {
@@ -19,3 +20,8 @@ export default function PopoverDemo(props) {
     </Popover.Root>
   );
 }
+
+PopoverDemo.propTypes = {
+  component: PropTypes.element.isRequired,
+  items: PropTypes.element.isRequired,
+};
