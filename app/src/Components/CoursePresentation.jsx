@@ -11,41 +11,41 @@ export default function CoursePresentation() {
       <div className="div-course-presentation">
         <h3>O projeto de mentoria e discipulado</h3>
         <ol className="course-list">
-          <li><b>Objetivo</b></li>
+          <li><b>OBJETIVO</b></li>
           <p>
             O programa propõe o discipulado e o acompanhamento da mulher líder
             aspectos espiritual, físico e emocional
             por meio do fornecimento de ferramentas e recursos para o crescimento espiritual,
             desenvolvimento da inteligência emocional e consciência do cuidado com o corpo e saúde.
           </p>
-          <li><b>Justificativa</b></li>
+          <li><b>JUSTIFICATIVA</b></li>
           <p>
             O programa de discipulado e mentoria para liderança feminina,
             será uma resposta a lacuna que temos no que diz respeito ao preparo integral da líder.
             Tem como estratégia de atuação principal aliar teoria a prática,
             à medida que as mentoradas também terão oportunidade de discipular outras mulheres.
           </p>
-          <li><b>Formato</b></li>
+          <li><b>FORMATO</b></li>
           <p>
             Os encontros acontecerão quinzenalmente de forma online
             {' '}
-            <b>AS TERCAS FEIRAS AS 20H</b>
+            <b>as terças feiras as 20h</b>
             {' '}
             (Google Meet), com duração de 1 hora e meia a 2 horas.
             <br />
             Os encontros ficarão
             {' '}
-            <b>GRAVADOS E A DISPOSIÇÃO DAS ALUNAS</b>
+            <b>gravados e a disposição das alunas</b>
             {' '}
             inscritas.
             <br />
-            <b>TODAS AS AULAS SERÃO AO VIVO.</b>
+            <b>Todas as aulas serão ao vivo.</b>
           </p>
-          <li><b>Duração</b></li>
+          <li><b>DURAÇÃO</b></li>
           <p>
             Programa se dará em 6 meses - totalizando 12 encontros.
           </p>
-          <li><b>Conteúdo</b></li>
+          <li><b>CONTEÚDO</b></li>
           <p>
             Os conteúdos serão apresentados em formato de
             módulos para melhor compreensão e absorção.
@@ -56,7 +56,7 @@ export default function CoursePresentation() {
               <li>Liderança Feminina – Mulher em Posição de Destaque</li>
             </ul>
             <li>
-              <b>MODULO 1 – QUEM SOU EU? (4 encontros)</b>
+              <b>Módulo 1 - Quem sou eu? (4 encontros)</b>
             </li>
             <ul className="subject">
               <li>Identidade e autoconhecimento</li>
@@ -68,7 +68,7 @@ export default function CoursePresentation() {
               <li>Construção da autoimagem</li>
               <li>Desenvolvimento da autoestima</li>
             </ul>
-            <li><b>MODULO 2 – VIDA CRISTÃ (4 encontros)</b></li>
+            <li><b>Módulo 2 - Vida Cristã (4 encontros)</b></li>
             <ul className="subject">
               <li>
                 Reafirmando o meu propósito (não ora mais, não lê a Bíblia,
@@ -93,14 +93,14 @@ export default function CoursePresentation() {
                 (quando a gente perde o proposito, recebe o chamado mas não está focado)
               </li>
             </ul>
-            <li><b>MODULO 3 – LIDERANÇA (3 encontros)</b></li>
+            <li><b>Módulo 3 - Liderança (3 encontros)</b></li>
             <ul className="subject">
               <li>Desenvolvimento da inteligência emocional</li>
               <li>Discipulado Comportamental</li>
               <li>Discipulando outras mulheres </li>
             </ul>
           </ul>
-          <li><b>Perfil de saída</b></li>
+          <li><b>PERFIL DE SAÍDA</b></li>
           <ul>
             <p>Ao final do período a líder será capaz de:</p>
             <li>

@@ -45,11 +45,11 @@ export default function ToWhom() {
           <b>Eu ensino mulheres</b>
           {' '}
           a estarem ajustadas no ministerio e no lar,
-          além de se organizar para ter mais tempo com a famípa
+          além de se organizar para ter mais tempo com a família
           e ter um diálogo esclarecido com a igreja.
         </p>
         <p>
-          Além disso nós aprendemos a formar outras pderes e
+          Além disso nós aprendemos a formar outras líderes e
           colocar as pessoas certas no lugar certo.
         </p>
       </div>

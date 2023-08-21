@@ -1,11 +1,18 @@
-header {
+.header-desktop {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-end;
   background-color: #eea2a5;
   color: white;
   font-weight: 700;
+}
+
+.header-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #eea2a5;
+  width: 100%;
 }
 
 .header-img {
@@ -13,7 +20,7 @@ header {
   height: auto;
 }
 
-nav {
+.nav-desktop {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -22,7 +29,23 @@ nav {
   height: 36px;
 }
 
-.nav-menu, a {
+.nav-menu-desktop a, .nav-menu-mobile a {
   color: white;
   text-decoration: none;
+}
+
+.div-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.nav-mobile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #eea2a5;
+  width: 75%;
+  /* height: 36px; */
 }

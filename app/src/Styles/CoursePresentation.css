@@ -17,7 +17,11 @@
 }
 
 ul {
-  padding: 12px;
+  padding: 6px;
+}
+
+ol p {
+  padding: 6px;
 }
 
 .hero4 {

@@ -6,15 +6,15 @@ export default function Footer() {
     <footer>
       <div className="footer-title">
         <span>Academia de Mulheres Inspire</span>
-        {' '}
+        <br />
         <a href="https://www.instagram.com/maurarute/">Maura Rute</a>
       </div>
       <div className="dev-title">
         <span>
-          Criado por
+          Página criada pelo
           {' '}
-          <a href="https://www.linkedin.com/in/joao-moreira-dev/">Dev João Moreira</a>
         </span>
+        <a href="https://www.linkedin.com/in/joao-moreira-dev/">Dev João Moreira</a>
       </div>
     </footer>
   );

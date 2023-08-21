@@ -16,29 +16,40 @@ export default function Header() {
       </nav>
     );
     if (isMobile) {
-      return (<MenuPopover items={items} />);
+      return (
+        <header
+          id="header"
+          className="header-mobile"
+        >
+          <img
+            src={headerimg}
+            alt="Mentoria liderança cristã Feminina"
+            className="header-img"
+          />
+          <MenuPopover items={items} />
+        </header>
+      );
     }
     return (
-      <nav className="nav-desktop">
-        <a className="nav-menu-desktop" href="#header">Home</a>
-        <a className="nav-menu-desktop" href="#to-whom">Para quem</a>
-        <a className="nav-menu-desktop" href="#personal-presentation">Quem sou eu</a>
-        <a className="nav-menu-desktop" href="#course-presentation">O Curso</a>
-        <a className="nav-menu-desktop" href="#form">Inscreva-se</a>
-      </nav>
+      <header
+        id="header"
+        className="header-desktop"
+      >
+        <img
+          src={headerimg}
+          alt="Mentoria liderança cristã Feminina"
+          className="header-img"
+        />
+        <nav className="nav-desktop">
+          <a className="nav-menu-desktop" href="#header">Home</a>
+          <a className="nav-menu-desktop" href="#to-whom">Para quem</a>
+          <a className="nav-menu-desktop" href="#personal-presentation">Quem sou eu</a>
+          <a className="nav-menu-desktop" href="#course-presentation">O Curso</a>
+          <a className="nav-menu-desktop" href="#form">Inscreva-se</a>
+        </nav>
+      </header>
     );
   };
 
-  return (
-    <header id="header">
-      <img
-        src={headerimg}
-        alt="Mentoria liderança cristã Feminina"
-        className="header-img"
-      />
-      {
-        renderNavMenu()
-      }
-    </header>
-  );
+  return renderNavMenu();
 }
