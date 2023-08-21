@@ -1,4 +1,5 @@
 import React from 'react';
+import { isMobile } from 'react-device-detect';
 import headerimg from '../Images/HeaderImg.png';
 import '../Styles/Header.css';
 
