@@ -1,14 +1,12 @@
 import React from 'react';
 import * as Popover from '@radix-ui/react-popover';
-import PropTypes from 'prop-types';
-import '../../Styles/Popover.css';
+// import '../../Styles/Popover.css';
 
-export default function PopoverDemo(props) {
-  const { component, items } = props;
-
+export default function MenuPopover(props) {
+  const { items } = props;
   return (
     <Popover.Root>
-      <Popover.Trigger className="PopoverTrigger">{component}</Popover.Trigger>
+      <Popover.Trigger className="PopoverTrigger">Menu</Popover.Trigger>
       <Popover.Portal>
         <Popover.Content className="PopoverContent" sideOffset={5}>
           {
@@ -20,8 +18,3 @@ export default function PopoverDemo(props) {
     </Popover.Root>
   );
 }
-
-PopoverDemo.propTypes = {
-  component: PropTypes.element.isRequired,
-  items: PropTypes.element.isRequired,
-};
