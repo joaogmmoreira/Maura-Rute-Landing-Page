@@ -1,0 +1,74 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding-top: 24px;
+}
+
+.div-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 72px;
+  width: 95%;
+}
+
+.div-form p {
+  text-align: center;
+}
+
+.form {
+  height: 1200px;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  .form {
+    height: 1250px;
+  }
+}
+
+@media (max-width: 520px) {
+  .form {
+    height: 1300px;
+  }
+}
+
+@media (max-width: 470px) {
+  .form {
+    height: 1350px;
+  }
+}
+
+@media (max-width: 410px) {
+  .form {
+    height: 1400px;
+  }
+}
+
+@media (max-width: 380px) {
+  .form {
+    height: 1450px;
+  }
+}
+
+@media (max-width: 360px) {
+  .form {
+    height: 1500px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form {
+    height: 1550px;
+  }
+}
+
+@media (max-width: 320px) {
+  .form {
+    height: 1600px;
+  }
+}

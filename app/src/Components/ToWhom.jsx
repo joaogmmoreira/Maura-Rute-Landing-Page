@@ -1,55 +1,80 @@
 import React from 'react';
 import '../Styles/ToWhom.css';
+import heroImg from '../Images/2.jpg';
 
 export default function ToWhom() {
   return (
-    <>
-      <section
-        className="to-whom"
-        id="to-whom"
-      >
+    <section
+      className="to-whom"
+      id="to-whom"
+    >
+      <div className="div-toWhom">
         <h3>Essa mentoria é para você que:</h3>
-        <ul>
-          <li>Não consegue treinar uma pessoa para substituir</li>
-          <li>Tem dificuldade com a lideranca da igreja</li>
-          <li>Acha que ministério é menosprezado</li>
-          <li>Esquece da importância do ministério diante de Deus</li>
-          <li>Está quase desistindo do ministério</li>
-          <li>tem dificuldade de identificar novos lideres</li>
-          <li>Se sente sozinha no ministério</li>
-          <li>Não sabe delegar e acumula funções</li>
-          <li>Tem dificuldade de planejar</li>
-          <li>Não consegue dar prosseguimento ao planejamento anual</li>
-          <li>Está tão desanimada que faz tudo de qualquer jeito</li>
-          <li>Não tem mais uma vida de oração, não lê mais a biblia e não tem tempo com Deus</li>
-          <li>Apenas foca no ativismo</li>
-          <li>Por causa da sobrecarga está com o lar desajustado</li>
-        </ul>
-
+        <p>
+          Não consegue treinar uma pessoa para substituir
+          <br />
+          Tem dificuldade com a lideranca da igreja
+          <br />
+          Acha que ministério é menosprezado
+          <br />
+          Esquece da importância do ministério diante de Deus
+          <br />
+          Está quase desistindo do ministério
+          <br />
+          Tem dificuldade de identificar novos poderes
+          <br />
+          Se sente sozinha no ministério
+          <br />
+          Não sabe delegar e acumula funções
+          <br />
+          Tem dificuldade de planejar
+          <br />
+          Não consegue dar prosseguimento ao planejamento anual
+          <br />
+          Está tão desanimada que faz tudo de qualquer jeito
+          <br />
+          Não tem mais uma vida de oração e não tem tempo com Deus
+          <br />
+          Apenas foca no ativismo
+          <br />
+          Por causa da sobrecarga está com o lar desajustado
+        </p>
+      </div>
+      <div className="toWhom-objective">
         <p>
           <b>Eu ensino mulheres</b>
           {' '}
-          a estarem ajustada no ministerio e no lar,
-          além de se organizar para ter mais tempo com a família
+          a estarem ajustadas no ministerio e no lar,
+          além de se organizar para ter mais tempo com a famípa
           e ter um diálogo esclarecido com a igreja.
         </p>
         <p>
-          Além disso nós aprendemos a formar outras lideres e
+          Além disso nós aprendemos a formar outras pderes e
           colocar as pessoas certas no lugar certo.
         </p>
-
-        <p>E que mulheres são essas?</p>
-
-        <p>Público alvo - Para quem é o treinamento de liderança cristã feminina?</p>
-        <ul>
-          <li>Pastoras</li>
-          <li>Esposas de pastor</li>
-          <li>Líderes de mulheres (Ministério de Mulheres, MCM, Jovens, MR)</li>
-          <li>Líderes de crianças</li>
-          <li>Profissionais em qualquer área de atuação</li>
-        </ul>
-      </section>
-      <img src="" alt="" />
-    </>
+      </div>
+      <div className="div-public">
+        <p>
+          <b>E que mulheres são essas?</b>
+          <br />
+          Público alvo - Para quem é o treinamento de liderança cristã feminina?
+          <br />
+          Pastoras
+          <br />
+          Esposas de pastor
+          <br />
+          Líderes de mulheres (Ministério de Mulheres, MCM, Jovens, MR)
+          <br />
+          Líderes de crianças
+          <br />
+          Profissionais em qualquer área de atuação
+        </p>
+      </div>
+      <img
+        className="hero2"
+        src={heroImg}
+        alt="Maura Rute falando ao microfone com a mão esquerda levantada"
+      />
+    </section>
   );
 }

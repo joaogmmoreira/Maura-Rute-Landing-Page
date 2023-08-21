@@ -1,4 +1,5 @@
 import React from 'react';
+import '../Styles/Footer.css';
 
 export default function Footer() {
   return (
@@ -12,7 +13,7 @@ export default function Footer() {
         <span>
           Criado por
           {' '}
-          <a href="https://www.linkedin.com/in/joao-moreira-dev/">João Moreira</a>
+          <a href="https://www.linkedin.com/in/joao-moreira-dev/">Dev João Moreira</a>
         </span>
       </div>
     </footer>

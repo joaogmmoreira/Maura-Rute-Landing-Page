@@ -4,9 +4,9 @@ import '../Styles/WhereDoWeBegan.css';
 
 export default function WhereDoWeBegan() {
   return (
-    <>
-      <section className="begin">
-        <h3>Onde começamos</h3>
+    <section className="begin">
+      <h3>Onde começamos</h3>
+      <div className="div-begin">
         <p>
           Academia de Mulheres Inspire é um projeto que Deus colocou no
           meu coração no final de 2019.
@@ -42,8 +42,8 @@ export default function WhereDoWeBegan() {
           anulada pela disciplina e pela boa administração do tempo, a inexperiência
           foi dando lugar a troca e a bons relacionamentos.
         </p>
-      </section>
+      </div>
       <img className="hero1" src={heroImg} alt="Maura Rute falando ao microfone com a mão no peito" />
-    </>
+    </section>
   );
 }
