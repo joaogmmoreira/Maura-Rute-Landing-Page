@@ -4,14 +4,21 @@ import '../Styles/GoogleForms.css';
 export default function GoogleForms() {
   return (
     <section
-      className="form"
+      className="form-section"
       id="form"
     >
       <div className="div-form">
         <h3>Increva-se</h3>
         <p>
-          Preencha o formulário abaixo para se inscrever na lista de espera
-          do nosso curso e receber um manual completo com todos os conteúdos
+          <h4><b>Bônus</b></h4>
+          Diagnóstico da Liderança individual para as 03 primeiras inscritas.
+          <br />
+          Material didático completo acompanhado de links
+          para testes, vídeos e áudios complementares.
+          <br />
+          Suporte pessoal da mentora através de Whatsapp.
+          <br />
+          Grupo de Whatsapp exclusivo da turma.
         </p>
         <iframe
           className="form"

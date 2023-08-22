@@ -12,10 +12,13 @@ export default function Home() {
   return (
     <>
       <Header />
+      <div className="div-title1">
+        <h2 className="home-title">Seja uma líder diferenciada e reconhecida por sua liderança saudável e equilibrada.</h2>
+      </div>
       <WhereDoWeBegan />
       <ToWhom />
-      <PersonalPresentation />
       <CoursePresentation />
+      <PersonalPresentation />
       <GoogleForms />
       <Footer />
     </>

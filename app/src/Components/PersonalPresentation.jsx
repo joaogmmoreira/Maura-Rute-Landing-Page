@@ -1,5 +1,5 @@
 import React from 'react';
-import heroImg from '../Images/4.jpg';
+import heroImg from '../Images/3.jpg';
 import '../Styles/PersonalPresentation.css';
 
 export default function PersonalPresentation() {
@@ -9,31 +9,44 @@ export default function PersonalPresentation() {
       id="personal-presentation"
     >
       <div className="div-personal-presentation">
-        <h3>Apresentação Pessoal</h3>
+        <h3>Quem é Maura Rute?</h3>
         <p>
-          Filha amada do Pai, convertida e chamada desde a adolescência
-          Filha, esposa e mãe
+          Casada com o Pr. José Paulo há mais de 28 anos, mãe do Davi e
+          da Isabel.
           <br />
-          Formada em Educação Religiosa e Pedagogia pelo Seminário Teológico Batista do Sul do
-          Brasil (1996)
+          Possuo mais de 25 anos de experiência na Educação
+          Cristã e vida eclesiástica.
           <br />
-          Formada em Serviço Social pela Universidade do Grande Rio - UNIGRANRIO (2015)
+          Entre as atividades exercidas,
+          destaco o aconselhamento pastoral, discipulado de mulheres
+          e treinamento de liderança.
           <br />
-          Pós-Graduada em Terapia Sistêmica Individual, casal e Família pelo Instituto Logos (2021)
+          Sou escritora de vários artigos
+          com temas diversos para revistas e jornais evangélicos.
           <br />
-          Articulista das Revistas Visão Missionária, Aventura Real e Manancial da UFMBB
-          Líder das Esposas de pastores da Convenção Batista Carioca RJ (2019)
-          Casada com o pr. José Paulo Moura Antunes desde 1995
+          Autora do E-book &quot;Mulheres Fazendo a Diferença na Nova Geração&quot;.
           <br />
-          Membro da Primeira Igreja Batista em Madureira - Rio de janeiro -
-          onde seu esposo é o pastor titular
+          Terapeuta de mulheres,
+          atendo individualmente pacientes no Brasil e no mundo.
+          <br />
+          Lidero as Esposas de Pastores da Convenção Batista Carioca.
+        </p>
+        <img
+          className="hero2"
+          src={heroImg}
+          alt="Maura Rute falando ao microfone com a mão esquerda levantada"
+        />
+        <p>
+          <h3>Coheça a minha formação</h3>
+          Graduada em Educação Cristã, Pedagogia e Serviço Social.
+          <br />
+          Especialista em Terapia Sistêmica Familiar.
+          <br />
+          Especialista em Terapia Floral.
+          <br />
+          Escritora, Palestrante, Mentora de Mulheres e Líder de Esposa de Pastor
         </p>
       </div>
-      <img
-        className="hero3"
-        src={heroImg}
-        alt="Maura Rute falando com o microfone na mão esquerda lendo ao púlpito"
-      />
     </section>
   );
 }

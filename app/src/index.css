@@ -11,9 +11,40 @@ body {
   background-color: #eddacd;
 }
 
+.div-title1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  color: #7c726b;
+  margin: 24px;
+}
+
+.home-title {
+  border: solid 6px #7c726b;
+  padding: 24px;
+  width: 70%;
+}
+
+p {
+  font-size: 24px;
+  padding: 6px;
+  padding-bottom: 6px;
+}
+
 h3 {
   font-size: 36px;
-  padding-bottom: 12px;
+  padding-top: 12px;
+  padding: 12px;
+  color: #7c726b;
+  text-align: center;
+}
+
+h4 {
+  font-size: 24px;
+  padding-top: 12px;
+  padding: 12px;
   color: #7c726b;
   text-align: center;
 }
