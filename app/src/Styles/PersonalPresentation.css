@@ -16,10 +16,19 @@
   width: 70%;
 }
 
-.hero3 {
+.hero2 {
   height: auto;
   padding-top: 24px;
   padding-bottom: 12px;
   border-radius: 50%;
   width: 75%;
+}
+
+@media (max-width: 750px) {
+  .div-personal-presentation {
+    width: 95%;
+  }
+  .hero2 {
+    width: 95%;
+  }
 }

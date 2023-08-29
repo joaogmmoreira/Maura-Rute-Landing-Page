@@ -37,7 +37,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width: 85%;
+  width: 95%;
 }
 }
 
@@ -57,18 +57,12 @@
   .form {
     height: 1300px;
   }
-  .div-form {
-    width: 80%;
-  }
 }
 
 @media (max-width: 430px) {
   .form {
     height: 1350px;
-  }
-  .div-form {
-    width: 90%;
-  }  
+  } 
 }
 
 

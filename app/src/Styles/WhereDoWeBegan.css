@@ -25,3 +25,12 @@
   border-radius: 50%;
   width: 75%;
 }
+
+@media (max-width: 750px) {
+  .div-begin {
+    width: 95%;
+  }
+  .hero1 {
+    width: 95%;
+  }
+}
