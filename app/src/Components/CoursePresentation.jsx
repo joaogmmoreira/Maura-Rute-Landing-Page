@@ -16,7 +16,7 @@ export default function CoursePresentation() {
           a pratica, à medida que as alunas também terão
           oportunidade de discipular outras mulheres.
         </p>
-        <h3>O que vc vai aprender na Mentoria?</h3>
+        <h3>O que você vai aprender na Mentoria?</h3>
         <p>
           <p><b>Modulo 1</b></p>
           Conhecer a si mesma, curar feridas emocionais,

@@ -11,7 +11,7 @@ export default function PersonalPresentation() {
       <div className="div-personal-presentation">
         <h3>Quem é Maura Rute?</h3>
         <p>
-          Casada com o Pr. José Paulo há mais de 28 anos, mãe do Davi e
+          Sou casada com o Pr. José Paulo há mais de 28 anos, mãe do Davi e
           da Isabel.
           <br />
           Possuo mais de 25 anos de experiência na Educação
@@ -24,7 +24,7 @@ export default function PersonalPresentation() {
           Sou escritora de vários artigos
           com temas diversos para revistas e jornais evangélicos.
           <br />
-          Autora do E-book &quot;Mulheres Fazendo a Diferença na Nova Geração&quot;.
+          Sou autora do E-book &quot;Mulheres Fazendo a Diferença na Nova Geração&quot;.
           <br />
           Terapeuta de mulheres,
           atendo individualmente pacientes no Brasil e no mundo.
@@ -37,7 +37,7 @@ export default function PersonalPresentation() {
           alt="Maura Rute falando ao microfone com a mão esquerda levantada"
         />
         <p>
-          <h3>Coheça a minha formação</h3>
+          <h3>Conheça a minha formação</h3>
           Graduada em Educação Cristã, Pedagogia e Serviço Social.
           <br />
           Especialista em Terapia Sistêmica Familiar.

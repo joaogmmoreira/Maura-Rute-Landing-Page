@@ -8,7 +8,7 @@ export default function GoogleForms() {
       id="form"
     >
       <div className="div-form">
-        <h3>Increva-se</h3>
+        <h3>Inscreva-se</h3>
         <p>
           <h4><b>Bônus</b></h4>
           Diagnóstico da Liderança individual para as 03 primeiras inscritas.
@@ -21,9 +21,11 @@ export default function GoogleForms() {
           Grupo de Whatsapp exclusivo da turma.
         </p>
         <iframe
-          className="form"
           title="form"
+          className="form"
           src="https://docs.google.com/forms/d/e/1FAIpQLSfA3GXGgSGh0HJNNbXfsJH5nt_5AaB_fE7nHyop8kP_n9szxA/viewform?embedded=true"
+          width="640"
+          height="848"
           frameBorder="0"
           marginHeight="0"
           marginWidth="0"
