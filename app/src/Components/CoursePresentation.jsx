@@ -18,19 +18,19 @@ export default function CoursePresentation() {
         </p>
         <h3>O que você vai aprender na Mentoria?</h3>
         <p>
-          <p><b>Modulo 1</b></p>
+          <p><b>Módulo 1</b></p>
           Conhecer a si mesma, curar feridas emocionais,
           entender seu temperamento e personalidade para gerenciar
           suas emoções e interromper valores nocivos e reforçar bons valores.
         </p>
         <p>
-          <p><b>Modulo 2</b></p>
+          <p><b>Módulo 2</b></p>
           Confirmar seu propósito, missão e chamado;
           aprender a desenvolver seus dons, fruto do Espírito
           e estar firme diante das batalhas espirituais.
         </p>
         <p>
-          <p><b>Modulo 3</b></p>
+          <p><b>Módulo 3</b></p>
           Desenvolver a inteligência emocional para liderança;
           entender o comportamento da sua equipe e extrair o melhor que existe nela.
         </p>
