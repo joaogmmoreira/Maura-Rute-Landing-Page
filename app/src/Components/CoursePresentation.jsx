@@ -37,7 +37,7 @@ export default function CoursePresentation() {
         <h3>Como funciona a mentoria?</h3>
         <p>
           A mentoria tem a duração de 6 meses com conteúdo teórico e prático.
-          As aulas acontecem quinzenalmente, ao vivo as terças feiras, das 20h as 22h.
+          As aulas acontecem quinzenalmente, ao vivo, nos turnos da tarde e noite.
           Todas as aulas ficam gravadas para assistir quando e onde quiser.
           O material fica disponível durante 1 ano para a aluna.
         </p>
